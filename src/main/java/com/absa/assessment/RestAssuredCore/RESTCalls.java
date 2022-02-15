@@ -9,7 +9,7 @@ import org.apache.log4j.Logger;
 
 public class RESTCalls {
 	/*
-	 * This call will be resposible to fire requests
+	 * This call will be responsible to fire requests
 	 */
 
 	private static Logger log = LogManager.getLogger(RESTCalls.class.getName());

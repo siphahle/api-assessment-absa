@@ -12,8 +12,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-
-//Testng to listen to this extent reports.
 public class ExtentReporterNG implements IReporter {
     private ExtentReports extent;
 
@@ -42,9 +40,6 @@ public class ExtentReporterNG implements IReporter {
         if (tests.size() > 0) {
             for (ITestResult result : tests.getAllResults()) {
                 test = extent.startTest(result.getMethod().getMethodName());
- 
-                /*test.getTest(). = getTime(result.getStartMillis());
-                test.getTest().endedTime = getTime(result.getEndMillis());*/
 
                 for (String group : result.getMethod().getGroups())
                     test.assignCategory(group);
