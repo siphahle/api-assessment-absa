@@ -4,11 +4,9 @@ import com.absa.assessment.RestAssuredCore.BaseAssertion;
 import com.absa.assessment.RestAssuredCore.RESTCalls;
 import com.absa.assessment.utils.EndPoint;
 import com.absa.assessment.utils.TestUtils;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class DogBreed {
