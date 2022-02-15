@@ -33,7 +33,6 @@ public class DogBreed {
         response = RESTCalls.GETRequest(URI);
         String strResponse = TestUtils.getResponseString(response);
         BaseAssertion.verifyTrue(strResponse.contains("retriever"));
-        //Assert.assertTrue(strResponse.contains("retriever"));
         System.out.println(TestUtils.getResponseString(response));
     }
 
